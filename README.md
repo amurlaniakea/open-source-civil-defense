@@ -84,7 +84,7 @@ All support is voluntary and offered "as is" without warranties.
 
 ## How to Get Help
 
-1. **Fill out our private report form:** [OSCD Incident Report Form](https://forms.gle/REPLACE_WITH_FORM_LINK)
+**Use our private report form:** [OSCD Incident Report Form](https://amurlaniakea.github.io/open-source-civil-defense/form.html)
 2. A community member will respond when they can
 3. We work with you privately until the issue is resolved
 4. With your consent, we document the case (anonymized) for the community
@@ -144,7 +144,7 @@ This project is licensed under the **GNU Affero General Public License v3.0 (AGP
 ## Contact
 
 - GitHub: [github.com/amurlaniakea/open-source-civil-defense](https://github.com/amurlaniakea/open-source-civil-defense)
-- Report an incident: [Private Form](https://forms.gle/REPLACE_WITH_FORM_LINK)
+- Report an incident: [Private Form](https://amurlaniakea.github.io/open-source-civil-defense/form.html)
 
 ---
 
