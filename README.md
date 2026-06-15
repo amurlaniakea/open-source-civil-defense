@@ -143,9 +143,10 @@ This project is licensed under the **GNU Affero General Public License v3.0 (AGP
 
 ## Contact
 
-- GitHub: [github.com/amurlaniakea/open-source-civil-defense](https://github.com/amurlaniakea/open-source-civil-defense)
-- Report an incident: [Private Form](https://amurlaniakea.github.io/open-source-civil-defense/form.html)
-
+- **Repository:** [github.com/amurlaniakea/open-source-civil-defense](https://github.com/amurlaniakea/open-source-civil-defense)
+- **Report an incident:** [Private Form](https://amurlaniakea.github.io/open-source-civil-defense/form.html)
+- **Contact:** Sil-MagoPredator-Fenix (Pedro Sordo Martinez) — amurlaniakea@gmail.com
+- **License:** AGPL-3.0
 ---
 
 *OSCD is a community project. It is not perfect. But it is necessary.*
