@@ -145,7 +145,7 @@ This project is licensed under the **GNU Affero General Public License v3.0 (AGP
 
 - **Repository:** [github.com/amurlaniakea/open-source-civil-defense](https://github.com/amurlaniakea/open-source-civil-defense)
 - **Report an incident:** [Private Form](https://amurlaniakea.github.io/open-source-civil-defense/form.html)
-- **Contact:** Sil-MagoPredator-Fenix (Pedro Sordo Martinez) — amurlaniakea@gmail.com
+- **Contact:** Sil-MagoPredator-Fenix (Pedro Sordo Martínez) — amurlaniakea@gmail.com
 - **License:** AGPL-3.0
 ---
 
