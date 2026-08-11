@@ -139,14 +139,14 @@ See [SECURITY.md](./SECURITY.md) for how to report vulnerabilities in OSCD itsel
 
 ## License
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. The knowledge to defend software creators must remain free.
+This project is licensed under the **GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later)**. The knowledge to defend software creators must remain free.
 
 ## Contact
 
 - **Repository:** [github.com/amurlaniakea/open-source-civil-defense](https://github.com/amurlaniakea/open-source-civil-defense)
 - **Report an incident:** [Private Form](https://amurlaniakea.github.io/open-source-civil-defense/form.html)
 - **Contact:** Sil-MagoPredator-Fenix (Pedro Sordo Martínez) — amurlaniakea@gmail.com
-- **License:** AGPL-3.0
+- **License:** AGPL-3.0-or-later
 ---
 
 *OSCD is a community project. It is not perfect. But it is necessary.*

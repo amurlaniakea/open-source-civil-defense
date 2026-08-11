@@ -1,0 +1,19 @@
+name: License Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  license:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verificar LICENSE verbatim contra el texto oficial de la FSF
+        run: |
+          curl -s "https://www.gnu.org/licenses/agpl-3.0.txt" -o /tmp/agpl-official.txt
+          wc -l /tmp/agpl-official.txt
+          diff /tmp/agpl-official.txt LICENSE
