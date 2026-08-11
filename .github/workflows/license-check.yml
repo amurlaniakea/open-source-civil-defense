@@ -14,6 +14,14 @@ jobs:
 
       - name: Verificar LICENSE verbatim contra el texto oficial de la FSF
         run: |
-          curl -s "https://www.gnu.org/licenses/agpl-3.0.txt" -o /tmp/agpl-official.txt
+          for i in 1 2 3 4 5; do
+            curl -sS --connect-timeout 15 --max-time 60 \
+              "https://www.gnu.org/licenses/agpl-3.0.txt" -o /tmp/agpl-official.txt \
+              && [ "$(wc -l < /tmp/agpl-official.txt)" = "661" ] \
+              && break
+            echo "Intento $i fallido, reintentando en 5s..."
+            sleep 5
+          done
           wc -l /tmp/agpl-official.txt
+          test "$(wc -l < /tmp/agpl-official.txt)" = "661"
           diff /tmp/agpl-official.txt LICENSE
