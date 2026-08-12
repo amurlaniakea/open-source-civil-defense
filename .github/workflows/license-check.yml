@@ -14,6 +14,17 @@ jobs:
 
       - name: Verificar LICENSE verbatim contra el texto oficial de la FSF
         run: |
-          curl -s "https://www.gnu.org/licenses/agpl-3.0.txt" -o /tmp/agpl-official.txt
-          wc -l /tmp/agpl-official.txt
-          diff /tmp/agpl-official.txt LICENSE
+          # Fuente 1: descarga dinamica del texto oficial (gnu.org).
+          # gnu.org a veces bloquea/timeoutea las IPs de los runners de
+          # GitHub Actions; cuando responde, esta es la verificacion estricta.
+          if curl -sS --connect-timeout 10 --max-time 30 \
+            "https://www.gnu.org/licenses/agpl-3.0.txt" -o /tmp/agpl-official.txt \
+            && [ "$(wc -l < /tmp/agpl-official.txt)" = "661" ]; then
+            diff /tmp/agpl-official.txt LICENSE
+            echo "Verificado contra gnu.org (661 lineas): PASS"
+          else
+            # Fuente 2 (fallback): hash inmutable del texto oficial de la
+            # FSF (661 lineas, agpl-3.0.txt de gnu.org, estable desde 2007).
+            echo "gnu.org no alcanzable; verificando contra hash conocido del texto oficial"
+            echo "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0  LICENSE" | sha256sum -c -
+          fi
