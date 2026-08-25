@@ -92,8 +92,8 @@ This violates our [Code of Conduct](./CODE_OF_CONDUCT.md) and will result in imm
 
 ### What technologies does OSCD use?
 
-- **GitHub** for the repository, Kanban board, and discussions
-- **Google Forms or Formspree** for private incident reports
+- **GitHub** for the repository, issue tracking, and discussions
+- **FormSubmit.co** (third-party form-backend) for private incident reports
 - **Markdown** for all documentation
 - **GitHub Actions** for basic automation
 

@@ -10,7 +10,7 @@ OSCD is built on the principle that the privacy of attack victims is paramount. 
 2. **All case studies are anonymized** before publication.
 3. **Consent required.** No case is documented without explicit consent.
 4. **Minimal data collection.** We collect only what is necessary.
-5. **No data sharing.** We never share report data with third parties.
+5. **Third-party processor.** Incident reports are sent through **FormSubmit.co** (FormSubmit LLC), a third-party form-backend service that receives and forwards each submission to the OSCD coordination inbox. FormSubmit.co acts as a data processor on our behalf. We do not sell, rent, or disclose report data to any other third party.
 6. **Right to removal.** Anyone can request data removal at any time.
 
 ## What We Collect
@@ -52,7 +52,9 @@ OSCD is built on the principle that the privacy of attack victims is paramount. 
 
 ## Third Parties
 
-We do not share data with any third parties. When we facilitate reporting to GitHub Security or OpenSSF, we only share the anonymized technical details needed for their processes.
+**FormSubmit.co (data processor).** The private incident report form is delivered through FormSubmit.co (FormSubmit LLC), a third-party form-backend service. When you submit the form, your report is transmitted to and processed by FormSubmit.co, which forwards it to the OSCD coordination inbox (`amurlaniakea@gmail.com`). FormSubmit.co's own processing is governed by its privacy policy (<https://formsubmit.co/>). We chose this service to avoid operating our own server, but you should be aware that your submission passes through this external processor before reaching us.
+
+**Platform reports.** When we facilitate reporting to GitHub Security or OpenSSF, we only share the anonymized technical details needed for their processes — never the reporter's identity or contact data without explicit consent.
 
 ## Your Rights
 
@@ -67,4 +69,4 @@ For privacy-related requests, email the project coordinator.
 
 ---
 
-*Last updated: June 15, 2026*
+*Last updated: 25 August 2026*

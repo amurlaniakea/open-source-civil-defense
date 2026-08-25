@@ -44,9 +44,9 @@
 
 **Purpose:** Receive incident reports without exposing victims.
 
-**Implementation:** Google Forms or Formspree (free, no backend needed).
+**Implementation:** FormSubmit.co (third-party form-backend, free tier, no backend needed). Submissions are forwarded to the coordinator inbox. See `form.html`.
 
-**Fields:** See the form template in `docs/formulario-reporte.md`.
+**Fields:** See the form template in `form.html`.
 
 **Notifications:** Email alert to coordinator when a new report arrives.
 
@@ -110,7 +110,7 @@ casos/NNN-short-name/
 |---|---|---|
 | Repository | GitHub | Free |
 | Kanban Board | GitHub Projects v2 | Free |
-| Private Forms | Google Forms or Formspree | Free |
+| Private Forms | FormSubmit.co (third-party processor) | Free |
 | Communication | Email + GitHub Issues | Free |
 | Case Studies | Markdown files in repo | Free |
 | Search | GitHub Search + Google indexing | Free |

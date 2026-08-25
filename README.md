@@ -1,5 +1,7 @@
 # Open Source Civil Defense (OSCD)
 
+![License](https://img.shields.io/github/license/amurlaniakea/open-source-civil-defense) ![CI: License Check](https://github.com/amurlaniakea/open-source-civil-defense/actions/workflows/license-check.yml/badge.svg)
+
 > "The software of the world is built on the shoulders of independent developers. It is time to protect them."
 
 ---
@@ -43,7 +45,7 @@ When a developer reports an attack, we use a structured form to understand:
 
 ### 2. Coordinate Community Response
 
-Cases are published on a public Kanban board with priority levels:
+Cases are tracked publicly with priority levels:
 
 - **CRITICAL:** Active attack on high-impact project. Requires immediate action.
 - **HIGH:** Attack contained but needs cleanup or audit.
@@ -95,7 +97,7 @@ All support is voluntary and offered "as is" without warranties.
 
 ## How to Help
 
-- Review open cases on our [Kanban Board](https://github.com/amurlaniakea/open-source-civil-defense/projects)
+- Review open cases on our [public case tracker (Issues)](https://github.com/amurlaniakea/open-source-civil-defense/issues)
 - If you have experience in security, code audit, or incident response, consider becoming a Guardian
 - Share reports (respecting victim privacy) for visibility
 - Contribute documentation, guides, and tools
