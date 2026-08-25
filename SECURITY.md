@@ -25,7 +25,7 @@ OSCD handles sensitive information about security incidents. Our privacy princip
 2. **All case studies are anonymized** before publication.
 3. **Consent required.** No case is documented without explicit consent from the affected party.
 4. **Minimal data collection.** The private report form collects only what is necessary.
-5. **No data sharing.** We do not share report data with third parties.
+5. **Third-party processor (subprocessor).** Incident reports are transmitted through **FormSubmit.co** (FormSubmit LLC), a third-party form-backend service that forwards submissions to the OSCD coordination inbox. FormSubmit.co acts as a data processor on our behalf; we do not sell or disclose data to other third parties. See `docs/privacidad.md` for the processor's role and your rights.
 6. **Right to removal.** Any person can request removal of their data at any time.
 
 ## What We Collect

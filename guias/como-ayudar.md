@@ -16,7 +16,7 @@ Anyone with relevant skills can help:
 
 ### 1. Monitor Active Cases
 
-Check the [Kanban Board](https://github.com/amurlaniakea/open-source-civil-defense/projects) for cases marked as "Investigating" or "Mitigation in Progress".
+Check the [public case tracker (Issues)](https://github.com/amurlaniakea/open-source-civil-defense/issues) for cases marked as "Investigating" or "Mitigation in Progress".
 
 Cases with the `help-wanted` label are actively seeking assistance.
 
